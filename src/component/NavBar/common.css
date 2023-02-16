@@ -1,0 +1,58 @@
+.maincontent {
+background-color: black;
+text-align: center;
+}
+
+.name {
+  color:white;
+}
+
+.logo {
+  animation: spin infinite 20s linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+hr {
+  border: 0.1rem solid  #61dbfb;
+  background-color: #61dbfb;
+  margin: 2rem auto 2rem auto;
+}
+
+.scroll {
+  font-size: 2.5rem;
+  color: #61dbfb;
+}
+
+.skills {
+  padding-top: 3rem;
+  font-size: 4rem;
+  color:white
+}
+
+.social-links {
+padding-bottom: 2rem;
+}
+
+.githublink {
+  font-size: 2.5rem;
+  color:white;
+}
+/* Skills
+************************************************************** */
+figure {
+    margin-top: 1.5rem;
+    color:white;
+}
+
+figcaption {
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+}
